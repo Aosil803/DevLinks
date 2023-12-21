@@ -7,7 +7,7 @@ body {
 :root {
     --text-color: white;
     --bg-url: url(imagens/matrix-light.jpg);
-    --bg-center: url(imagens/bg-mobile.jpg);
+    --bg-center: url(imagens/bg-desktop.jpg);
     --borda: rgba(255, 255, 255, 0.5);
     --surface: rgba(255, 255, 255, 0.1);
     --surface-hover: rgba(255, 255, 255, 0.5);
@@ -20,7 +20,7 @@ body {
 .light {
     --text-color: black;
     --bg-url: url(imagens/matrix-light.jpg);
-    --bg-center: url(imagens/bg-mobile-light.jpg);
+    --bg-center: url(imagens/bg-desktop-light.jpg);
     --borda: rgba(0, 0, 0, 0.5);
     --surface: rgba(170, 10, 210, 0.2);
     --surface-hover: rgba(0, 0, 0, 0.02);
@@ -44,9 +44,9 @@ body {
 
 #container {
     background-image: var(--bg-center);
-    width: 360px;
+    width: 588px;
     border: 2.5px solid rgb(147, 89, 138);
-    padding-top: 56px;
+    padding-top: 15px;
     margin: 20px auto 0px;
     border-radius: 12px;
 
@@ -75,6 +75,11 @@ body {
     margin-top: 8px;
 }
 
+#switch {
+    position: relative;
+    width: 64px;
+    margin: 4px auto;
+}
 
 #switch span {
     display: flex;
